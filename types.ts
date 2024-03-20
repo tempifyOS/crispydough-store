@@ -14,7 +14,7 @@ export interface Product {
     url: string;
   }
   
-  export interface Billboard {
+  export interface Billboards {
     id: string;
     label: string;
     imageUrl: string;
