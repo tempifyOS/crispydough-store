@@ -1,5 +1,3 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Container from "@/components/ui/container";
 
 const AboutUsPage = () => {
