@@ -1,5 +1,7 @@
+"use client";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import ContactForm from "@/components/ui/contactform";
 import Container from "@/components/ui/container";
 
 const ContactPage = () => {
@@ -50,9 +52,8 @@ const ContactPage = () => {
               Have a question or comment? Fill out the form below and we will
               get back to you as soon as possible.
             </p>
-            {/* Include your contact form component here */}
-            {/* Example: <ContactForm /> */}
           </div>
+          <ContactForm />
         </div>
       </Container>
     </>
