@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { paperPlaneOutline } from 'ionicons/icons';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-hot-toast';
-import { useHistory } from 'react-router-dom';
 
 const Article = styled.article`
   padding: 20px;
