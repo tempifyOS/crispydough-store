@@ -184,14 +184,12 @@ const ContactForm: React.FC = () => {
           </InputGroup>
           <Textarea name="message" placeholder="How can we serve you?" required onChange={handleInputChange} />
           <ContactButton
-            type="submit"
-            disabled={!formData.fullname || !formData.email || !formData.phone || !formData.message}
-            className="form-btn"
-            onClick={handleSubmit}
+          type="submit"
+          disabled={!formData.fullname || !formData.email || !formData.phone || !formData.message}
+          className="form-btn"
           >
-
-            <IonIcon icon={paperPlaneOutline} />
-            <span>Send Message</span>
+           <IonIcon icon={paperPlaneOutline} />
+           <span>Send Message</span>
           </ContactButton>
         </Form>
       </Section>
