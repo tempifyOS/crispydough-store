@@ -31,7 +31,7 @@ const PaymentCompleted = () => {
         <div className="bg-gray-100 p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Order Details</h2>
           <p className='text-lg text-gray-700 mb-4'>Please allow up to 72 hours for products to be made.</p>
-          <p className="text-lg text-gray-700 mb-4">Products will be delivered in person. For any questions, please text or call <a className='text-blue-700'>(210)-906-4517</a>.</p>
+          <p className="text-lg text-gray-700 mb-4">For any questions, please text or call <a className='text-blue-700'>(210)-906-4517</a>. or visit <a className='text-blue-700' href='https://thecrispydough.com/contact'>Contact Us</a></p>
         </div>
       </div>
     </Container>
