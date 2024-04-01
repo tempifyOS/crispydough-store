@@ -38,10 +38,11 @@ const Summary = () => {
       toast.success('Payment completed.');
       removeAll();
     }
-    if (searchParams.get('canceled')) {
-      toast.error('Something went wrong.');
-    }
   }, [searchParams, removeAll]);
+
+  if (searchParams.get('canceled')) {
+    toast.error('Order was cancelled.');
+  }
 
   const totalPrice = items.reduce((total, item) => total + Number(item.price), 0);
   const deliveryCost = selectedMethod ? DELIVERY_OPTIONS[selectedMethod].cost : 0;
