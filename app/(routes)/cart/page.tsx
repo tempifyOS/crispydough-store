@@ -38,7 +38,7 @@ const CartPage = () => {
               </ul>
             </div>
             <Summary />
-          h</div>
+          </div>
         </div>
       </Container>
     </div>
