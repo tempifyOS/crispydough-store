@@ -1,5 +1,4 @@
 import { Albert_Sans } from 'next/font/google'
-import { Analytics } from "@vercel/analytics/react"
 
 import ModalProvider from '@/providers/modal-provider'
 import ToastProvider from '@/providers/toast-provider'
@@ -28,7 +27,6 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        <Analytics />
       </body>
     </html>
   )
