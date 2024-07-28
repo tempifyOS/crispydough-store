@@ -8,11 +8,17 @@ export const revalidate = 0;
 
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true });
+  const billboard = await getBillboard("5c7d383b-31c7-4543-9ed3-dd1fdd4e4e11");
 
   return (
     <Container>
       <div className="space-y-10 pb-10">
-        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8 text-center mt-10">
+        <div className="w-1/2 max-w-md mx-auto"> {/* Tailwind classes for width and centering */}
+          <Billboard 
+            data={billboard}
+          />
+        </div>
+        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
           <ProductList title="Featured Products" items={products} />
         </div>
       </div>
