@@ -4,7 +4,7 @@ import ModalProvider from '@/providers/modal-provider'
 import ToastProvider from '@/providers/toast-provider'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const font = Albert_Sans({ subsets: ['latin'] })
@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+        <Analytics />
         <ToastProvider />
         <ModalProvider />
         <Navbar />
