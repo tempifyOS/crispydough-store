@@ -16,7 +16,7 @@ const PrivacyPolicyPage = () => {
           <li>Name</li>
           <li>Email address</li>
           <li>Billing and shipping address</li>
-          <li>Payment information (handled securely by <a className="text-blue-500 underline" href="https://stripe.com/resources/more/secure-payment-systems-explained">Stripe</a>)</li>
+          <li>Payment information (handled securely by Stripe)</li>
         </ul>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">How We Use Your Information</h2>
         <p className="text-lg text-gray-700 mb-6">
@@ -30,7 +30,7 @@ const PrivacyPolicyPage = () => {
         </ul>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Payment Processing</h2>
         <p className="text-lg text-gray-700 mb-6">
-          We use <a className="text-blue-500 underline" href="https://stripe.com" target="blank">Stripe</a> to process all payments on our website. Stripe is a trusted payment processor that employs industry-leading security measures to protect your payment information. For more information on Stripe's security practices, please visit their <a className="text-blue-500 underline" href="https://stripe.com/docs/security" target="blank">Security Documentation</a>.
+          We use <a className="text-blue-500 underline" href="https://stripe.com" target="blank">Stripe</a> to process all payments on our website. Stripe is a trusted payment processor that employs industry-leading security measures to protect your payment information. For more information on Stripe&apos;s security practices, please visit their <a className="text-blue-500 underline" href="https://stripe.com/docs/security" target="blank">Security Documentation</a>.
         </p>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Data Security</h2>
         <p className="text-lg text-gray-700 mb-6">

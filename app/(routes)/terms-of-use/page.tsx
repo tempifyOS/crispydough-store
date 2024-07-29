@@ -36,7 +36,7 @@ const TermsOfUsePage = () => {
         </p>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Payment</h2>
         <p className="text-lg text-gray-700 mb-6">
-          All payments are processed through <a className="text-blue-500 underline" href="https://stripe.com" target="blank">Stripe</a>. By making a purchase, you agree to Stripe's terms and conditions. We are not responsible for any issues related to payment processing.
+          All payments are processed through <a className="text-blue-500 underline" href="https://stripe.com" target="blank">Stripe</a>. By making a purchase, you agree to Stripe&apos;s terms and conditions. We are not responsible for any issues related to payment processing.
         </p>
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Limitation of Liability</h2>
         <p className="text-lg text-gray-700 mb-6">
