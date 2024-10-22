@@ -19,6 +19,7 @@ const HomePage = async () => {
             data={billboard}
           />
           <ExpandableNote /> {/* Use the client component */}
+          <p className="text-red-600 text-center">Please view the note!</p>
         </div>
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
           <ProductList title="Featured Products" items={products} />

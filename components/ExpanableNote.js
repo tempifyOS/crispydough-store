@@ -16,9 +16,13 @@ const ExpandableNote = () => {
         <span>{isNoteExpanded ? "-" : "+"}</span>
       </div>
       {isNoteExpanded && (
-        <div className="mt-2">
-          The physical business address listed on Google is for pickup only. For other inquiries, please visit the <a className="text-blue-500 underline" href="https://thecrispydough.com/contact">contact</a> page.
-        </div>
+          <div>
+            Crispy Dough Bakery will be closed from November 12th to December 15th due to medical reasons. 
+            Please be patient during the recovery time, and I look forward to serving you once we are reopened.
+          </div>
+        // <div className="mt-2">
+        //   The physical business address listed on Google is for pickup only. For other inquiries, please visit the <a className="text-blue-500 underline" href="https://thecrispydough.com/contact">contact</a> page.
+        // </div>
       )}
     </div>
   );
